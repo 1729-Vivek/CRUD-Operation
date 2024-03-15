@@ -1,0 +1,37 @@
+# Dependency directories
+node_modules/
+venv/
+vendor/
+
+# # Compiled code and binaries
+# *.exe
+# *.dll
+# *.so
+# *.o
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE and editor-specific files
+# .vscode/
+# .idea/
+# *.sublime-project
+# *.sublime-workspace
+
+# Configuration files with sensitive information
+.env
+*.config
+
+# Ignore package lock file and package.json
+package-lock.json
+package.json
+
+
+# Generated files
+dist/
+build/
+*.html
+*.css
+*.js
