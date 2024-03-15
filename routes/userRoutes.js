@@ -1,7 +1,7 @@
 const express=require("express")
 
 
-const {home,createUser, getUsers}=require("../controller/userController.js"); //  so our main processing way is controller:-> Route
+const {home,createUser, getUsers, deleteUser}=require("../controller/userController.js"); //  so our main processing way is controller:-> Route
                                                          // then Route:->Route :->  App
 
 
@@ -12,7 +12,7 @@ router.post('/createUser',createUser)
 
 router.get("/getUser",getUsers)
 
-
+router.delete('/deleteuser/:id',deleteUser)
 
 
 
